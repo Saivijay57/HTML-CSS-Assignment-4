@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heading {
+            text-align: center;
+        }
+        .days {
+            list-style-type: square;
+        }
+        .months {
+            list-style-type:lower-roman;
+        }
+        .seasons {
+            list-style-type:none;
+        }
+        .body {
+            display:flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+        }
+        .data {
+            border-style: solid;
+            border-width: 1px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <div>
+        <h1 class="heading">TEXT</h1>
+        <hr>
+        <div class="body">
+            <div class="data">
+                <!-- days in week -->
+                <h3>Days</h3>
+                <ul class="days">
+                    <li>monday</li>
+                    <li>tuesday</li>
+                    <li>wednesday</li>
+                    <li>thursday</li>
+                    <li>friday</li>
+                    <li>saturday</li>
+                    <li>sunday</li>
+                </ul>
+            </div>
+            <div class="data">
+                <!-- months in year -->
+                <h3>months</h3>
+                <ol class="months">
+                    <li>January</li>
+                    <li>February</li>
+                    <li>March</li>
+                    <li>April</li>
+                    <li>May</li>
+                    <li>June</li>
+                    <li>July</li>
+                    <li>August</li>
+                    <li>September</li>
+                    <li>October</li>
+                    <li>November</li>
+                    <li>December</li>
+                </ol>
+            </div>
+            <div class="data">
+                <!-- seasons and their months -->
+                <h3>Seasons</h3>
+                <dl class="seasons">
+                    <dt>Winter</dt>
+                    <dd>
+                        <li>December</li>
+                        <li>January</li>
+                    </dd>
+                    <dt>Spring</dt>
+                    <dd>
+                        <li>February</li>
+                        <li>March</li>
+                    </dd>
+                    <dt>Summer</dt>
+                    <dd>
+                        <li>April</li>
+                        <li>May</li>
+                        <li>June</li>
+                    </dd>
+                    <dt>Mansoon</dt>
+                    <dd>
+                        <li>July</li>
+                        <li>August</li>
+                        <li>September</li>
+                    </dd>
+                    <dt>Autumn</dt>
+                    <dd>
+                        <li>September</li>
+                        <li>November</li>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
